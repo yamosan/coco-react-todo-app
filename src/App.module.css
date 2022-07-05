@@ -1,0 +1,50 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.header {
+  margin-top: 32px;
+  margin-bottom: 58px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.main {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  color: #a9a9a9;
+  padding: 8px 0;
+}
+
+.deleteButton {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+
+  margin-left: auto;
+  width: max-content;
+  padding: 12px 24px;
+  background: #eb5757;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  color: #ffffff;
+}
